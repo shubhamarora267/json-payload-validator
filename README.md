@@ -20,12 +20,12 @@ Consider a sample payload
 ```console
 {
     "employee": {  
-		"id": 964464646324,
+	"id": 964464646324,
         "name":       "Bob Williams",   
         "salary":      "567899",   
         "married":    true,
-		"phone": "9876446111",
-		"email": "bob.williams@email.com"
+	"phone": "9876446111",
+	"email": "bob.williams@email.com"
     }  
 }
 ```
@@ -44,7 +44,7 @@ let validateRules={
 ```
 
 ## How to use library 
-
+```console
 let Validator = require('./index');
 
 let validatorObj=new Validator();
@@ -54,8 +54,9 @@ let validateRules=<YOUR_RULES_OBJECT>;
 let payload=<YOUR_PAYLOAD>;
 
 let response=validatorObj.validate(validateRules,payload);
+```
 
-This validate function gives an object as a response .
+This validate function gives an `object` as a response .
 
 #### Success Case
 ```console
