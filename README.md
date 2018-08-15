@@ -58,12 +58,15 @@ let response=validatorObj.validate(validateRules,payload);
 This validate function gives an object as a response .
 
 #### Success Case
+```console
 {
    "status":"Success",
    "message":"Payload is valid"
 }
+```
 
 #### Error Case
+```console
 {
    "status":"Error",
    "message":[
@@ -73,3 +76,4 @@ This validate function gives an object as a response .
       }
    ]
 }
+```
