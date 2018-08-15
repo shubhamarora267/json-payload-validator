@@ -1,15 +1,15 @@
 <p>This module takes payload and validate them against rules list.</p>
 
 You can apply the following rules in each key of your payload. 
-* REQUIRED
-* IS_STRING
-* NOT_EMPTY
-* IS_NUMBER
-* IS_NUMBER
-* IS_ARRAY
-* IS_BOOLEAN
-* IS_EMAIL
-* LENGTH (min,max)
+* `REQUIRED`
+* `IS_STRING`
+* `NOT_EMPTY`
+* `IS_NUMBER`
+* `IS_NUMBER`
+* `IS_ARRAY`
+* `IS_BOOLEAN`
+* `IS_EMAIL`
+* `LENGTH` (min,max)
 
 ## How to define validation rules
 
