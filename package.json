@@ -1,0 +1,17 @@
+{
+  "name": "Payload Validator",
+  "version": "0.0.1",
+  "description": "This module takes payload  as a parameter and validate them against rules list.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "author": "",
+  "license": "ISC",  
+  "dependencies": {    
+    "validator": "^9.4.1"
+  }
+}
