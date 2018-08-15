@@ -1,5 +1,4 @@
-# json-payload-validator
-This module takes payload and validate them against rules list.
+<p>This module takes payload and validate them against rules list.</p>
 
 You can apply the following rules in each key of your payload. 
 * REQUIRED
